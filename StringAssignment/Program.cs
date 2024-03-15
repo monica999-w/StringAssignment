@@ -15,11 +15,11 @@ Console.WriteLine($"In this string are {sentence.Length} sentences");
 int count = 0;
 foreach (string word in words)
 {
-    if (word.Equals("encapsulation")){
+    if (word.ToLower() == "encapsulation"){
         count++;
     }
 }
-Console.WriteLine($"In this string are apper {count}  word encapsulation");
+Console.WriteLine($"In this string are appear {count}  word encapsulation");
 
 
 //- Display this string in reverse, without using any C# language feature. (Create your own algorith)
